@@ -1,0 +1,6 @@
+1. Open user settings with: `command ,`
+2. Add the following line in the user_settings panel:
+
+```
+"editor.formatOnSave": true,
+```
