@@ -1,0 +1,44 @@
+{
+  "Print to console": {
+    "prefix": "log",
+    "body": ["console.log('$1');", "$2"],
+    "description": "Log output to console"
+  },
+  "Multi line comment": {
+    "prefix": "mlc",
+    "body": ["/*", "$1", "*/"],
+    "description": "Create a multi line comment"
+  },
+  "Skeleton React Component": {
+    "prefix": "rc",
+    "body": [
+      "import React, { Component } from 'react';",
+      "",
+      "export default class $1 extends Component {",
+      "  render() {",
+      "    return (",
+      "      <div>",
+      "        $2",
+      "      </div>",
+      "    );",
+      "  }",
+      "}"
+    ],
+    "description": "Generates a basic React Component"
+  },
+  "Skeleton React Functional Component": {
+    "prefix": "rf",
+    "body": [
+      "import React from 'react';",
+      "",
+      "export default function() {",
+      "  return (",
+      "    <div>",
+      "      $1",
+      "    </div>",
+      "  );",
+      "}"
+    ],
+    "description": "Generates a basic React Component"
+  }
+}
